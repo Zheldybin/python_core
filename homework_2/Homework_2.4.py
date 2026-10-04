@@ -1,6 +1,6 @@
 secret_number = 37
 n = 1
-while n < 9999999999999999:
+while True:
     number_user = int(input("Введи число чтобы угадать загаданное: "))
     if number_user > secret_number:
         print(f"Введи число меньше чем {number_user}")
