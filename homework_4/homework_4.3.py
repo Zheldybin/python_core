@@ -4,6 +4,6 @@ with open('number.txt', 'r') as f:
 with open('number.txt', 'w') as f:
     for line in lines:
         line = line.strip()
-        number = int(line)
+        number = float(line)
         squared = number ** 2
         f.write(f'{squared}\n')

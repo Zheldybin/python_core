@@ -5,4 +5,5 @@ with open('number.txt', 'r') as f:
     else:
         print(file[0].strip())
         print(file[1].strip())
+        print(file[len(file) - 2].strip())
         print(file[len(file) - 1].strip())
