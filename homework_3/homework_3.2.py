@@ -23,5 +23,7 @@ def print_report(test_cases, statuses):
 
     if count_fail > 0:
         print("Запуск не успешный")
+    else:
+        print("Запуск успешный")
 
 result = print_report(test_cases, statuses)

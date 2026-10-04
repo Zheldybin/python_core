@@ -14,7 +14,7 @@ def get_test_statistics(arr):
 
 stats = get_test_statistics(result_tests)
 
-success_rate = (stats['PASS'] + stats['SKIP']) / count_all_tests * 100
+success_rate = stats['PASS'] / count_all_tests * 100
 
 print(f"Всего тестов: {count_all_tests}")
 print(f"PASS: {stats['PASS']}")
