@@ -1,4 +1,5 @@
 import json
+
 try:
     with open('account.json', 'r', encoding='utf-8') as f:
         account = json.load(f)

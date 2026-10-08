@@ -1,9 +1,9 @@
 def tests(running_tests, timeout):
-    # Создаём ошибки на некорректные тесты
     if running_tests < 0 or running_tests > 5:
         raise ValueError("Количество повторных запусков должно быть от 0 до 5")
     if timeout < 0:
         raise ValueError("Таймаут должен быть положительным числом")
+
 
 result_tests = [
     {"running_tests": 3, "timeout": 3},
