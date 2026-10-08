@@ -1,0 +1,37 @@
+[
+  {
+    "name": "test_login",
+    "status": "PASS",
+    "time": 2.5
+  },
+  {
+    "name": "test_registration",
+    "status": "FAIL",
+    "time": 3.1
+  },
+  {
+    "name": "test_profile",
+    "status": "PASS",
+    "time": 1.8
+  },
+  {
+    "name": "test_payment",
+    "status": "FAIL",
+    "time": 4.2
+  },
+  {
+    "name": "test_api",
+    "status": "SKIP",
+    "time": 0.5
+  },
+  {
+    "name": "test_security",
+    "status": "PASS",
+    "time": 5.0
+  },
+  {
+    "name": "test_performance",
+    "status": "SKIP",
+    "time": 10.0
+  }
+]

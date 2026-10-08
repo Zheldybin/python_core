@@ -1,0 +1,17 @@
+{
+  "total": 7,
+  "pass": 3,
+  "fail": 2,
+  "skip": 2,
+  "failed_tests": [
+    "test_registration",
+    "test_payment"
+  ],
+  "successful_tests": [
+    "test_login",
+    "test_profile",
+    "test_security"
+  ],
+  "longest_duration": 10.0,
+  "total_time": 27.1
+}
