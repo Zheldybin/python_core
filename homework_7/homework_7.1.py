@@ -22,7 +22,7 @@ CardNumber_2 = CreditCard(33202, 1000)
 CardNumber_3 = CreditCard(6542358, 5000)
 
 CardNumber_1.deposit(300)
-CardNumber_2.withdraw(200)
+CardNumber_2.deposit(200)
 CardNumber_3.withdraw(6000)
 
 CardNumber_1.show_info()
